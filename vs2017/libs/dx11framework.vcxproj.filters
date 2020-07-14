@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\dx11framework\Camera.cpp" />
+    <ClCompile Include="..\..\src\dx11framework\d3dApp.cpp" />
+    <ClCompile Include="..\..\src\dx11framework\d3dUtil.cpp" />
+    <ClCompile Include="..\..\src\dx11framework\GameTimer.cpp" />
+    <ClCompile Include="..\..\src\dx11framework\GeometryGenerator.cpp" />
+    <ClCompile Include="..\..\src\dx11framework\LightHelper.cpp" />
+    <ClCompile Include="..\..\src\dx11framework\MathHelper.cpp" />
+    <ClCompile Include="..\..\src\dx11framework\TextureMgr.cpp" />
+    <ClCompile Include="..\..\src\dx11framework\Waves.cpp" />
+    <ClCompile Include="..\..\src\dx11framework\xnacollision.cpp">
+      <Filter>XNAMath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dx11framework\dxerr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\dx11framework\Camera.h" />
+    <ClInclude Include="..\..\src\dx11framework\d3dApp.h" />
+    <ClInclude Include="..\..\src\dx11framework\d3dUtil.h" />
+    <ClInclude Include="..\..\src\dx11framework\GameTimer.h" />
+    <ClInclude Include="..\..\src\dx11framework\GeometryGenerator.h" />
+    <ClInclude Include="..\..\src\dx11framework\LightHelper.h" />
+    <ClInclude Include="..\..\src\dx11framework\MathHelper.h" />
+    <ClInclude Include="..\..\src\dx11framework\TextureMgr.h" />
+    <ClInclude Include="..\..\src\dx11framework\Waves.h" />
+    <ClInclude Include="..\..\src\dx11framework\xnacollision.h">
+      <Filter>XNAMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\dx11framework\xnamath.h">
+      <Filter>XNAMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\dx11framework\myxnamath.h" />
+    <ClInclude Include="..\..\src\dx11framework\dxerr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="XNAMath">
+      <UniqueIdentifier>{35fa1fe4-58a7-4ca8-a9fe-cee688458f52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\dx11framework\xnamathconvert.inl">
+      <Filter>XNAMath</Filter>
+    </None>
+    <None Include="..\..\src\dx11framework\xnamathmatrix.inl">
+      <Filter>XNAMath</Filter>
+    </None>
+    <None Include="..\..\src\dx11framework\xnamathmisc.inl">
+      <Filter>XNAMath</Filter>
+    </None>
+    <None Include="..\..\src\dx11framework\xnamathvector.inl">
+      <Filter>XNAMath</Filter>
+    </None>
+  </ItemGroup>
+</Project>
